@@ -3,7 +3,6 @@ sudo: required
 
 services:
   - docker
-  -
 before_install:
   - docker build -t dzela/docker-react -f Dockerfile.dev .
 
